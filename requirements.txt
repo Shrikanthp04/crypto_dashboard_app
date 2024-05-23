@@ -1,0 +1,13 @@
+django==4.2
+djangorestframework==3.14.0
+django-plotly-dash==2.2.2
+pyodbc==4.0.39
+langchain==0.0.229
+semantic-kernel==0.3.10.dev0
+pandas
+gunicorn
+channels 
+daphne 
+redis 
+django-redis 
+channels-redis

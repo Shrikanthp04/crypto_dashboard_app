@@ -1,0 +1,144 @@
+*[class="output-example-loading"][data-dash-is-loading="true"]{
+    visibility: hidden;
+}
+
+*[class="output-example-loading"][data-dash-is-loading="true"]::before{
+    content: "Loading...";
+    display: inline-block;
+    color: rgba(40, 52, 209, 0.52);
+    visibility: visible;
+}  
+
+*[class="textarea1"]:is(:focus, :valid){
+  border-color: #4671ea;
+  border-width: 2px;
+}
+
+*[class="textarea1"]::-webkit-scrollbar{
+  width:'4px';
+}
+
+*[class='textarea1']::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: #ffffff; 
+}
+
+*[class="styled-table"] {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+*[class="styled-table"] tbody tr {
+  border-bottom: 1px solid #ffffff;
+}
+
+*[class="styled-table"] tbody tr:nth-of-type(even) {
+  color: #fff;
+  background-color: #333333;
+}
+
+*[class="styled-table"] tbody tr:last-of-type {
+  color: #fff;
+  border-bottom: 2px solid #009879;
+}
+
+*[class="styled-table"] th,
+*[class="styled-table"] td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+*[class="styled-table"] tbody tr.active-row {
+  color: #fff;
+  font-weight: bold;
+  color: #009879;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888888; 
+}
+
+*[textarea1] ::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  background-color: #111000;
+}
+.text-center {
+  text-align: center;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  font-size: 12px;
+}
+.btn {
+  margin: 5px;
+}
+.d-flex {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-middle {
+  align-items: center;
+}
+
+.custom-dropdown .Select-menu-outer {
+  background-color: black !important;
+}
+
+.custom-dropdown .Select-option {
+  background-color: black !important;
+  color: white !important;
+}
+
+.custom-dropdown .Select-value {
+  background-color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.custom-dropdown .VirtualizedSelectFocusedOption {
+  background-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.radio_button .form-check-inline {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.radio_button .form-check {
+  padding-left: 1.5em;
+}
